@@ -6,3 +6,8 @@ Author URI: http://andyosuna.com
 Description: Custom theme for Lex Shotokan Karate Do
 Version: 1.0
 */
+header{
+	display:block;
+	height:120px;
+	background-image:url(images/dvsup.png);
+}
