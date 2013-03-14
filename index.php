@@ -22,10 +22,10 @@
  
 <body class="home">
 	<header>
-		<div class="container">
-			<h1><a href="/">Lex Karate</a></h1>
-			<nav>
-				<ul class="tj">
+		<div class="container clearfix">
+			<h1 class="pull-left"><a href="/">Lex Karate</a></h1>
+			<nav class="pull-right">
+				<ul class="nav nav-pills">
 					<li><a href="">Inicio</a></li>
 					<li><a href="">Horario</a></li>
 					<li><a href="">Instructores</a></li>
