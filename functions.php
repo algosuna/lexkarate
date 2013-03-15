@@ -10,4 +10,4 @@ function lex_menus(){
 		'main_nav'=>'Global Navigation'
 	));
 }
-add_action('init','awesome_menus');
+add_action('init','lex_menus');
