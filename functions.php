@@ -1,4 +1,11 @@
 <?php
+add_theme_support(
+	'post-formats',
+	array('image','video','audio','quote','gallery')
+);
+add_theme_support('post-thumbnails'); //Featured Image
+add_theme_support('custom-background');
+add_theme_support('automatic-feed-links');
 
 /** Menu System Support
   * Adds menu areas to the theme

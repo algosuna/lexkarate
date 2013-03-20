@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="http://andyosuna.com/css/bootstrap.min.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="http://andyosuna.com/css/bootsrap-responsive.min.css" />
 
-	<link rel="stylesheet" type="text/css" href="wp-content/themes/lexkarate/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
 	<!--[if IE]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -35,13 +35,6 @@
 						));
 					endif;
 					?>
-					<!--
-					<li><a href="">Inicio</a></li>
-					<li><a href="">Horario</a></li>
-					<li><a href="">Instructores</a></li>
-					<li><a href="">Afiliaciones</a></li>
-					<li><a href="">Contacto</a></li>
-					-->
 				</ul>
 			</nav>
 		</div>
