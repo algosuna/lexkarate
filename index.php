@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
-	<section class="clearfix" id="slider">
-		<!-- Slider Here -->
+	<section class="clearfix">
 	</section>
 
 	<section id="content">
