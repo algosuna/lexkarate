@@ -21,27 +21,21 @@
  
 <body <?php body_class();?>>
 	<header>
-		<div class="container">
-			<div class="row">
-				<div class="span2">
-					<h1 class="pull-left"><a href="/">Lex Karate</a></h1>
-				</div>
+		<div class="container clearfix">
+			<h1><a href="/">Lex Karate</a></h1>
 
-				<div class="span10">
-					<nav class="pull-right">
-						<ul class="nav nav-pills">
-							<?php
-							if(has_nav_menu('main_nav')):
-								wp_nav_menu(array(
-									'theme_location'=>'main_nav',
-									'container'=>false,
-									'items_wrap'=>'%3$s'
-								));
-							endif;
-							?>
-						</ul>
-					</nav>
-				</div>				
-			</div>
+			<nav class="pull-right">
+				<ul class="nav nav-pills">
+					<?php
+					if(has_nav_menu('main_nav')):
+						wp_nav_menu(array(
+							'theme_location'=>'main_nav',
+							'container'=>false,
+							'items_wrap'=>'%3$s'
+						));
+					endif;
+					?>
+				</ul>
+			</nav>
 		</div>
 	</header>

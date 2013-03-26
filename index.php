@@ -1,13 +1,14 @@
 <?php get_header(); ?>
-
-	<section class="clearfix">
-	</section>
-
-	<section id="content">
 		<div class="container">
 			<div class="row">
 				<div class="span8">
 					<section id="content">
+
+						<?php
+						if(function_exists('dimox_breadcrumbs')):
+							dimox_breadcrumbs();
+						endif;
+						?>
 
 						<?php
 						if(have_posts()):
@@ -50,6 +51,5 @@
 				</div>
 			</div>
 		</div>
-	</section>
 
 	<?php get_footer();?>

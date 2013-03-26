@@ -22,11 +22,11 @@ header{
 	background-image:url(images/dvsup.png);
 	-webkit-box-shadow:0px 1px 5px 1px #bcbec0;
 			box-shadow:0px 1px 5px 1px #bcbec0;
+	margin-bottom:20px;
 }
 header h1{
-	position:relative;
+	position:absolute;
 	top:0px;
-	left:0px;
 	margin:0px;
 }
 header h1 a{
@@ -53,11 +53,20 @@ Slideshow
 
 */
 #slider img{
-	margin-top:10px;
 	-webkit-border-radius: 10px;
 	   -moz-border-radius: 10px;
 			border-radius: 10px;
 }
+
+/*
+
+Layout
+
+*/
+#crumbs{
+	margin-top:5px;
+}
+/* STUFF HERE */
 
 /*
 

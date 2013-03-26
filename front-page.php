@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-<section class="clearfix" id="slider">
+<section class="" id="slider">
 	<div class="container">
-		<div id="lexCarousel" class="carousel slide">
+		<div id="myCarousel" class="carousel slide">
 			<?php
 			if(function_exists('lex_slideshow')):
 				lex_slideshow();
@@ -37,8 +37,6 @@
 	</div>
 </section>
 
-<section id="afiliaciones">
-	<!--Afiliaciones Here-->
-</section>
+<!--Afiliaciones Here-->
 
 <?php get_footer('frontpage');?>

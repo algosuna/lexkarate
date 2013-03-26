@@ -18,8 +18,8 @@
 	</footer>
 
 	<script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js">$('.carousel').carousel()</script>
-    <script type="text/javascript"></script>
+    <script src="http://andyosuna.com/js/bootstrap.min.js"></script>
+    <script type="text/javascript">$('.carousel').carousel()</script>
     <?php wp_footer(); ?>
 
 </body>
