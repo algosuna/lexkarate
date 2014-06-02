@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="span8">
-					&copy; 2013 LexKarate.com
+					&copy; 2013 <?php bloginfo('name'); ?>
 				</div>
 				<div class="span4">
 					<address>
